@@ -1,0 +1,4 @@
+---
+# tasks file for ssh-with-keys
+- copy: src="{{ sshkey }}" dest="/home/{{ newuser }}/.ssh/authorized_keys2" owner="{{ newuser }}" mode="u+rw,g=,o="
+
