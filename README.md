@@ -16,7 +16,7 @@ How to use role:
 
     - hosts: servers
       roles:
-         - { role: ysz.ssh-with-keys, sshkey: /path/to/id_rsa.pu, newuser: buildbot }
+         - { role: yakovzaytsev.ssh-with-keys, sshkey: /path/to/id_rsa.pu, newuser: buildbot }
 
 License
 -------
